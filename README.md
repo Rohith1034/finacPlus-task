@@ -68,7 +68,7 @@ If I were designing an inventory system for Amazon, here’s the metadata I woul
 I designed a high-level system architecture for a real-time portfolio management platform for 250+ users. Each user has asset accounts (stocks/mutual funds) with real-time pricing updates from multiple sources, updated every 10 minutes.
 
 ### 📈 System Architecture Overview
-
+![Portfolio System Diagram](image.png)
 **Data Flow:**  
 `Price Sources → Price Aggregator Service → Portfolio Calculation Service → Real-Time Database → Notification Service → Users`
 
